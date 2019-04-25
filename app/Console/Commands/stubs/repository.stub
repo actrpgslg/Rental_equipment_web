@@ -1,0 +1,13 @@
+<?php
+namespace DummyNamespace;
+
+use DummyClass;
+
+class DummyClassRepository
+{
+    protected $Entries;
+    public function __construct(DummyClass $Entries)
+    {
+     $this->Entries = $Entries;
+    }
+}
